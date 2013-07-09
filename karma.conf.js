@@ -25,6 +25,7 @@ files = [
 
   // loaded with require
   {pattern: 'bower_components/flight/**/*.js', included: false},
+  {pattern: 'bower_components/hammerjs/**/*.js', included: false},
   {pattern: 'lib/**/*.js', included: false},
   {pattern: 'test/spec/**/*.spec.js', included: false},
 
