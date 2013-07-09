@@ -31,11 +31,11 @@ describeMixin('lib/touch', function () {
   });
 
   it('should respond to Hammer dragstart event', function () {
-    shouldTriggerFlightEventBasedOnHammerEvent('UIDragStart', 'dragstart');
+    shouldTriggerFlightEventBasedOnHammerEvent('UIDragstart', 'dragstart');
   });
 
-  it('should respond to Hammer dragEnd event', function () {
-    shouldTriggerFlightEventBasedOnHammerEvent('UIDragEnd', 'dragend');
+  it('should respond to Hammer dragend event', function () {
+    shouldTriggerFlightEventBasedOnHammerEvent('UIDragend', 'dragend');
   });
 
 });
